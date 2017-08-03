@@ -1,6 +1,7 @@
 #puts Dir.pwd
-puts 'installing cool atom package'
+puts 'installing cool atom packages'
 system 'apm install autoclose-html'
+system 'apm install pigments'
 Dir.chdir
 puts 'Your are working in the...'
 puts Dir.pwd
