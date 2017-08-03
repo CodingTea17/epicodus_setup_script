@@ -2,6 +2,7 @@
 puts 'installing cool atom packages'
 system 'apm install autoclose-html'
 system 'apm install pigments'
+system 'apm install seti-ui'
 Dir.chdir
 puts 'Your are working in the...'
 puts Dir.pwd
